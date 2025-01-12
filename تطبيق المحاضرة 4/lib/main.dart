@@ -18,10 +18,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
     debugShowCheckedModeBanner: false,
       home: SafeArea(child: Scaffold(
-          appBar: AppBar(),
+          appBar: AppBar(
+            title: Text("home"),
+            backgroundColor: Colors.teal,
+          ),
           drawer: mydrawer(),
       bottomNavigationBar: Container(
-        color: Colors.amber,
+        color: Colors.teal,
         height: 50,
       ),
 
